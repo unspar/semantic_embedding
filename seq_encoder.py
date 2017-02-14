@@ -12,7 +12,7 @@ from tensorflow.python.ops import rnn
 from tensorflow.python.ops import variable_scope
 
 
-def rnn_encode( batch_size, seq_length, rnn_size,inputs,  rnn_depth=2, state = None, scope=None):
+def rnn_encode( batch_size,  rnn_size,inputs,  rnn_depth=2, state = None, scope=None):
   '''
   This is a learned fold. 
   It is defined over a vector space of size rnn_size.
